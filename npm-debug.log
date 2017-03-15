@@ -1,14 +1,14 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
-2 info using npm@3.10.9
-3 info using node@v6.9.1
+2 info using npm@3.10.10
+3 info using node@v6.10.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle udemy-nodejs-angular2@1.0.0~prestart: udemy-nodejs-angular2@1.0.0
 6 silly lifecycle udemy-nodejs-angular2@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle udemy-nodejs-angular2@1.0.0~start: udemy-nodejs-angular2@1.0.0
 8 verbose lifecycle udemy-nodejs-angular2@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle udemy-nodejs-angular2@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/Ali/Sites/mean/node_modules/.bin:/usr/local/mysql-5.7.11-osx10.9-x86_64/bin:/Users/Ali/.rvm/gems/ruby-2.2.3/bin:/Users/Ali/.rvm/gems/ruby-2.2.3@global/bin:/Users/Ali/.rvm/rubies/ruby-2.2.3/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Users/Ali/.rvm/bin:/Users/Ali/.rvm/bin:/usr/local/mysql-5.7.11-osx10.9-x86_64/bin:/Users/Ali/.rvm/bin
-10 verbose lifecycle udemy-nodejs-angular2@1.0.0~start: CWD: /Users/Ali/Sites/mean
+9 verbose lifecycle udemy-nodejs-angular2@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/alisaadati/Sites/mean/mean/node_modules/.bin:/Users/alisaadati/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+10 verbose lifecycle udemy-nodejs-angular2@1.0.0~start: CWD: /Users/alisaadati/Sites/mean/mean
 11 silly lifecycle udemy-nodejs-angular2@1.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle udemy-nodejs-angular2@1.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle udemy-nodejs-angular2@1.0.0~start: Failed to exec start script
@@ -23,11 +23,11 @@
 14 verbose stack     at maybeClose (internal/child_process.js:877:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid udemy-nodejs-angular2@1.0.0
-16 verbose cwd /Users/Ali/Sites/mean
-17 error Darwin 16.4.0
+16 verbose cwd /Users/alisaadati/Sites/mean/mean
+17 error Darwin 15.6.0
 18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
-19 error node v6.9.1
-20 error npm  v3.10.9
+19 error node v6.10.0
+20 error npm  v3.10.10
 21 error code ELIFECYCLE
 22 error udemy-nodejs-angular2@1.0.0 start: `node ./bin/www`
 22 error Exit status 1
